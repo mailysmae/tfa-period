@@ -1,10 +1,12 @@
 body {
-  font-family: sans-serif;
+  font-family: $type-text;
   font-size: $size-text;
   line-height: 1.5;
   color: $c-text;
+  background-color: $c-bg;
 }
 
 .title {
-  color: $c-alt;
+  color: $c-logo;
+  font-family: $type-title;
 }
