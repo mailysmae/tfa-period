@@ -10,3 +10,10 @@ body {
   color: $c-logo;
   font-family: $type-title;
 }
+.title--sous,
+.texte{
+  position: relative;
+  color: $c-link;
+  padding: 20px;
+  margin: 30px;
+}
