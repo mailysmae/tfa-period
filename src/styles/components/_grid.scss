@@ -1,0 +1,16 @@
+/*CSS Grid */
+/*.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    
+}
+.container > *{
+    grid-column: 2/-1; 
+}
+.tgrid-start2{
+    grid-column-start: 1;
+    grid-column-end: 2;  
+}
+*/

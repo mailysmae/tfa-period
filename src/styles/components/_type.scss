@@ -17,3 +17,28 @@ body {
   padding: 20px;
   margin: 30px;
 }
+.texte--box{
+  padding: 0;
+  top: 50px;
+}
+.title--sous__box{
+  top: 20px;
+}
+.contenair{
+  width: 100%;
+  max-width: 750px;
+  padding: 0;
+  margin: auto;
+}
+@media (min-width: 900px){ 
+.contenair{
+  max-width: 900px;
+  
+}
+}
+@media (min-width: 1200px){ 
+.contenair{
+  max-width: 1300px;
+
+}
+}
