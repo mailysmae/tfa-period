@@ -3,8 +3,9 @@ body {
   font-size: $size-text;
   line-height: 1.5;
   color: $c-text;
+  background-color: $c-bg;
 }
 
 .title {
-  color: $c-alt;
+  color: $c-logo;
 }
