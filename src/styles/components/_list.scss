@@ -15,9 +15,13 @@ a{
     color: $c-link;
     padding: 15px;
     border-radius: 25px;
+    top: 20px;
 }
-.proto{
-    box-shadow: 10px 5px 5px red;
+.proto:hover{
+    box-shadow: 2px 4px 10px $c-hover;
+}
+.proto:focus{
+    background-color: $c-focus;
 }
 /*reseaux*/
 .reseau,

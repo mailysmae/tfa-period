@@ -28,8 +28,12 @@ body {
 img{
     max-width: 100%;
     padding: 20px;
+    position: relative;
+ 
 }
-
+.img--protect{
+    top: 50px;
+}
 /*objet*/
 .ovale{
     position: relative;
