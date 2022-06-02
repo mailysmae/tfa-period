@@ -14,3 +14,10 @@ $type-text: "Cabin", sans-serif;
 $size-tablette: 25px;
 $size-desktop: 30px;
 $size-title: 50px;
+$type-logo: "Anilez", serif;
+
+@font-face {
+    font-family: "Anilez";
+    src: url("/fonts/Anilez.otf") format("otf2"),
+           url("/fonts/Anilez.otf") format("otf");
+}

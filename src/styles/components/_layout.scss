@@ -34,6 +34,9 @@ img{
 .img--protect{
     top: 50px;
 }
+.dwm{
+    width: 50px;
+}
 /*objet*/
 .ovale{
     position: relative;
@@ -119,6 +122,9 @@ img{
     }
     .img--protect{
         width: 500px;
+    }
+    .dwm{
+        top: 24px;
     }
 }
 @media (min-width: 1500px){

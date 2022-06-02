@@ -1,3 +1,9 @@
+.contenair{
+  width: 100%;
+  max-width: 750px;
+  padding: 0;
+  margin: auto;
+}
 /*texte et titre*/
 .title {
   color: $c-text;
@@ -21,17 +27,11 @@
 }
 .logo{
   color: $c-logo;
-  font-family: $type-title;
+  font-family: $type-logo;
   animation: translate 3s;
+  font-size: $size-title;
 }
 
-
-.contenair{
-  width: 100%;
-  max-width: 750px;
-  padding: 0;
-  margin: auto;
-}
 @media (min-width: 900px){ 
   .contenair{
     max-width: 900px;

@@ -29,14 +29,15 @@ a{
     list-style: none;
     display: flex;
     flex-direction: row;
-    
 }
-
+.menu__el{
+    margin: 10px;
+}
 .reseau__el a{
     display: inline-block;
     width: 25px;
     height: 25px;
-    
+    margin: 20px;
     
     text-indent: 100%;
     white-space: nowrap;
@@ -87,9 +88,8 @@ a{
         top: -110px;
     }
     .reseau__el a{
-        width: 40px;
-        height: 40px;
-    
+        width: 30px;
+        height: 30px;
     }
 }
 @media (min-width: 1200px){ 
@@ -100,11 +100,7 @@ a{
         font-size: $size-desktop;
     }
     .reseau__el{
-        margin: 10px;
-        position: relative;
         top: -14px;
-    }
-    .menu__el{
-        margin: 80px;
+        position: relative;
     }
 }
