@@ -7,22 +7,28 @@ body {
 }
 
 .title {
-  color: $c-logo;
+  color: $c-text;
   font-family: $type-title;
+  animation: translate 3s;
 }
 .title--sous,
 .texte{
   position: relative;
   color: $c-link;
-  padding: 20px;
-  margin: 30px;
+  padding: 10px;
+  margin: 20px;
+  animation: translate 3s;
 }
 .texte--box{
-  padding: 0;
-  top: 50px;
+  top: 32px;
 }
 .title--sous__box{
   top: 20px;
+}
+.logo{
+  color: $c-logo;
+  font-family: $type-title;
+  animation: translate 3s;
 }
 .contenair{
   width: 100%;
