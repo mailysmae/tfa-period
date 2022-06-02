@@ -27,11 +27,16 @@ a{
 .reseau,
 .menu__list{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    
 }
+
 .reseau__el a{
     display: inline-block;
     width: 25px;
     height: 25px;
+    
     
     text-indent: 100%;
     white-space: nowrap;
@@ -75,4 +80,15 @@ a{
 }
 .reseau__el--behance a:focus{
     background-image: url(../assets/images/reseaux/behance.svg);
+}
+
+@media (min-width: 900px){ 
+    .proto{
+        top: -110px;
+    }
+    .reseau__el a{
+        width: 40px;
+        height: 40px;
+    
+    }
 }
