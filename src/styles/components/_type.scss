@@ -1,11 +1,4 @@
-body {
-  font-family: $type-text;
-  font-size: $size-text;
-  line-height: 1.5;
-  color: $c-text;
-  background-color: $c-bg;
-}
-
+/*texte et titre*/
 .title {
   color: $c-text;
   font-family: $type-title;
@@ -30,6 +23,8 @@ body {
   font-family: $type-title;
   animation: translate 3s;
 }
+
+
 .contenair{
   width: 100%;
   max-width: 750px;

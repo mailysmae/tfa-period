@@ -1,8 +1,25 @@
-/*reseaux*/
+/*lien*/
 a{
     text-decoration: none;
     color: $c-text;
 }
+/*bouton*/
+.proto{
+    cursor: pointer;
+    margin: 0;
+    border:transparent;
+    position: relative;
+    background-color: $c-logo;
+    font-family: $type-text;
+
+    color: $c-link;
+    padding: 15px;
+    border-radius: 25px;
+}
+.proto{
+    box-shadow: 10px 5px 5px red;
+}
+/*reseaux*/
 .reseau,
 .menu__list{
     list-style: none;
