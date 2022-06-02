@@ -71,7 +71,7 @@ img{
           padding: 20px;
       }
     .box{
-        width: 100%;
+        width: 800px;
         height: 100%;
         display: flex;
         align-content: center;
@@ -100,4 +100,35 @@ img{
         padding: 120px;
     } 
 
+}
+@media (min-width: 1200px){ 
+    .box{
+        width: 1000px;
+    }
+    .page{
+        height: 517px;
+        margin: 20px;
+        font-size: $size-desktop;
+        width: 640px;
+    }
+    .ovale{
+        height: 699px;
+        right: 254px;
+        padding: 0;
+        border-radius: 0% 100% 43% 27%/100% 71% 49% 0%;
+    }
+    .img--protect{
+        width: 500px;
+    }
+}
+@media (min-width: 1500px){
+    .box{
+        width: 1500px;
+    }
+    .ovale {
+        height: 1000px;
+        right: 797px;
+        border-radius: 0% 100% 23% 67%/100% 71% 29% 0%;
+        width: 1910px;
+    }
 }

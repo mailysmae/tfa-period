@@ -49,11 +49,43 @@
   .texte--box{
     left: 0;
     width: 270px;
-    
   }
 }
 @media (min-width: 1200px){ 
   .contenair{
     max-width: 1300px;
+  }
+  .title {
+    font-size: $size-title;
+  }
+  .title--sous, 
+  .texte{
+    width: 500px;
+    left: 280px;
+    top: 66px;
+  }
+  .texte{
+    font-size: $size-desktop;
+    left: 280px;
+    top: 87px;
+  }
+  .texte--box{
+    width: 447px;
+    left: 21px;
+  }
+  .title--sous__box{
+    width: 587px;
+    left: 54px;
+  }
+}
+@media (min-width: 1500px){
+  .title--sous, .texte {
+    width: 508px;
+    left: 955px;
+    top: 329px;
+  }
+  .texte--box{
+    left: 25px;
+    top: 35px;
   }
 }

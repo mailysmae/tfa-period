@@ -92,3 +92,19 @@ a{
     
     }
 }
+@media (min-width: 1200px){ 
+    .proto{
+        padding: 34px;
+        border-radius: 45px;
+        top: -216px;
+        font-size: $size-desktop;
+    }
+    .reseau__el{
+        margin: 10px;
+        position: relative;
+        top: -14px;
+    }
+    .menu__el{
+        margin: 80px;
+    }
+}
