@@ -19,14 +19,16 @@
   animation: translate 3s;
 }
 .texte--box{
-  top: 32px;
+  top: 60px;
 }
 .texte--case{
   color: $c-text;
 }
 .title--sous__box{
-  top: 20px;
   color: $c-link;
+  top: 47px;
+  left: 34px;
+  position: relative;
 }
 .logo{
   color: $c-logo;
@@ -45,12 +47,12 @@
 @media (min-width: 900px){ 
   .contenair{
     max-width: 900px;
-  }/*
+  }
   .title--sous, 
   .texte{
-    left: 111px;
-    top: 20px;
-  }*/
+    padding: 28px;
+    width: 370px;
+  }
   .title--sous__box{
     position: relative;
     left: 30px;
@@ -67,10 +69,14 @@
   }
   .title {
     font-size: $size-title;
+    left: 60px;
+    top: 20px;
   }
   .texte{
     font-size: $size-desktop;
-    width: 780px;
+    width: 508px;
+    left: 69px;
+    top: 33px;
   }
   .texte--box{
     width: 447px;
@@ -84,8 +90,8 @@
 @media (min-width: 1500px){
   .title--sous, .texte {
     width: 508px;
-    left: 955px;
-    top: 329px;
+    left: 541px;
+    top: 41px;
   }
   .texte--box{
     left: 25px;

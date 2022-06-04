@@ -86,6 +86,7 @@ a{
 @media (min-width: 900px){ 
     .proto{
         top: -110px;
+        
     }
     .reseau__el a{
         width: 30px;
@@ -99,10 +100,10 @@ a{
 }
 @media (min-width: 1200px){ 
     .proto{
-        padding: 34px;
-        border-radius: 45px;
-        top: -216px;
         font-size: $size-desktop;
+        padding: 20px;
+        border-radius: 26px;
+        top: -105px;
     }
     .menu__el{
         margin: 38px;
