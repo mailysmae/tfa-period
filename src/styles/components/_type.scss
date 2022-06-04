@@ -21,6 +21,9 @@
 .texte--box{
   top: 32px;
 }
+.texte--case{
+  color: $c-text;
+}
 .title--sous__box{
   top: 20px;
   color: $c-link;
@@ -31,16 +34,23 @@
   animation: translate 3s;
   font-size: $size-title;
 }
+.sous{
+  color: $c-text;
+  font-size: $size-sous;
+}
+.sous--white{
+  color: $c-link;
+}
 
 @media (min-width: 900px){ 
   .contenair{
     max-width: 900px;
-  }
+  }/*
   .title--sous, 
   .texte{
     left: 111px;
     top: 20px;
-  }
+  }*/
   .title--sous__box{
     position: relative;
     left: 30px;
@@ -58,16 +68,9 @@
   .title {
     font-size: $size-title;
   }
-  .title--sous, 
-  .texte{
-    width: 500px;
-    left: 280px;
-    top: 66px;
-  }
   .texte{
     font-size: $size-desktop;
-    left: 280px;
-    top: 87px;
+    width: 780px;
   }
   .texte--box{
     width: 447px;

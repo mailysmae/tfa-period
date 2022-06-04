@@ -31,7 +31,7 @@ a{
     flex-direction: row;
 }
 .menu__el{
-    margin: 10px;
+    margin: 8px;
 }
 .reseau__el a{
     display: inline-block;
@@ -47,7 +47,7 @@ a{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
+    position: relative;
 }
 .reseau__el--insta a:hover{
     background-image: url(../assets/images/reseaux/instahover.svg);
@@ -90,6 +90,11 @@ a{
     .reseau__el a{
         width: 30px;
         height: 30px;
+        bottom: 15px;
+    }
+    .copy{
+        position: relative;
+        top: 30px;
     }
 }
 @media (min-width: 1200px){ 
@@ -99,8 +104,7 @@ a{
         top: -216px;
         font-size: $size-desktop;
     }
-    .reseau__el{
-        top: -14px;
-        position: relative;
+    .menu__el{
+        margin: 38px;
     }
 }

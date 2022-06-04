@@ -7,12 +7,14 @@ body {
   }
 /*section*/
 .section{
-    padding: 50px;
+    padding: 40px;
     margin: auto;
     max-width: 100%;
 }
 .section--header{
     flex-direction: column;
+    bottom: 49px;
+    position: relative;
 }
 .section--footer{
     display: flex;
@@ -22,12 +24,12 @@ body {
     border-top: 2px solid $c-logo;
     top: 80px;
     position: relative;
+    padding: 20px;
 }
 
 /*images*/
 img{
     max-width: 100%;
-    padding: 20px;
     position: relative;
  
 }
@@ -36,7 +38,13 @@ img{
 }
 .dwm{
     width: 50px;
+    left: 167px;
+    top: 3px;
 }
+.mockup{
+    max-width: 100%;
+}
+
 /*objet*/
 .ovale{
     position: relative;
@@ -47,6 +55,10 @@ img{
     padding: 40px;
     animation: color 3s infinite;
 } 
+.ovale--case{
+    border-radius: 0% 100% 83% 57%/100% 51% 29% 0%;
+
+}
 
 /*points fort*/
 .box{
@@ -98,10 +110,17 @@ img{
     }
 
     .ovale{
-        height: 374px;
         right: 186px;
         padding: 120px;
     } 
+    .ovale--case{
+        right: 267px;
+        padding: 96px;
+        border-radius: 0% 100% 53% 27%/100% 41% 29% 0%;
+    }
+    .dwm{
+    left: 2px;
+    }
 
 }
 @media (min-width: 1200px){ 
@@ -115,24 +134,25 @@ img{
         width: 640px;
     }
     .ovale{
-        height: 699px;
         right: 254px;
-        padding: 0;
         border-radius: 0% 100% 43% 27%/100% 71% 49% 0%;
     }
+  
     .img--protect{
         width: 500px;
     }
-    .dwm{
-        top: 24px;
+    .pictures{
+        width: 800px;
     }
+  div{
+      display: grid;
+  }
 }
 @media (min-width: 1500px){
     .box{
         width: 1500px;
     }
     .ovale {
-        height: 1000px;
         right: 797px;
         border-radius: 0% 100% 23% 67%/100% 71% 29% 0%;
         width: 1910px;
