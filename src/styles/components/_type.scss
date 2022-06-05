@@ -44,6 +44,9 @@
   top: -3px;
   left: 73px;
 }
+.title--sous__case{
+  width: 227px;
+}
 .logo{
   color: $c-logo;
   font-family: $type-logo;
@@ -86,6 +89,9 @@
   .texte--box__posi{
     top: -123px;
   }
+  .sous{
+    font-size: 15px;
+  }
 }
 @media (min-width: 1200px){ 
   .contenair{
@@ -116,5 +122,7 @@
   }
 }
 @media (min-width: 1500px){
- 
+ .texte{
+  width: 830px;
+ }
 }
