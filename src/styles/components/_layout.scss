@@ -4,10 +4,10 @@ body {
     line-height: 1.5;
     color: $c-text;
     background-color: $c-bg;
-  }
+}
 /*section*/
 .section{
-    padding: 40px;
+    padding: 30px;
     margin: auto;
     max-width: 100%;
 }
@@ -20,11 +20,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: auto;
     border-top: 2px solid $c-logo;
     top: 80px;
     position: relative;
-    padding: 20px;
 }
 
 /*images*/
@@ -50,11 +48,12 @@ img{
 /*objet*/
 .ovale{
     position: relative;
-    width: 100%;
-    border-radius: 0% 100% 63% 57% / 100% 51% 49% 0% ;
+    max-width: 100%;
+    border-radius: 0% 100% 63% 27%/100% 51% 59% 0;
     background: $c-bulle;
     margin: -50px;
     padding: 40px;
+    right: 10px;
     animation: color 3s infinite;
 } 
 .ovale--case{
@@ -97,9 +96,6 @@ img{
 } 
 
 @media (min-width: 900px){ 
-    .section{
-        padding: 50px;
-    }
     body {
         font-size: $size-tablette;
       }
@@ -132,9 +128,8 @@ img{
     }
 
     .ovale{
-        right: 83px;
-        padding: 30px;
-        width: 532px;
+        right: 93px;
+        border-radius: 0% 100% 63% 10%/100% 51% 50% 0%;
     } 
     .ovale--case{
         right: 94px;
@@ -142,27 +137,26 @@ img{
         border-radius: 0% 100% 53% 27%/100% 41% 29% 0%;
     }
     .dwm{
-    left: 2px;
+        left: 2px;
+    }
+    .mockup{
+        top: 71px;
     }
 
 }
 @media (min-width: 1200px){ 
-    .section{
-        padding: 80px;
-    }
     .box{
         width: 1248px;
     }
     .page{
-        height: 517px;
-        margin: 20px;
         font-size: $size-desktop;
-        width: 640px;
+        width: 559px;
+        height: 495px;
+        padding: 20px;
     }
     .ovale{
-        width: 545px;
-        right: 254px;
-        border-radius: 0% 100% 43% 27%/100% 71% 49% 0%;
+        padding: 131px;
+        right: 187px;
     }
     .ovale--case{
         width: 659px;
@@ -174,18 +168,12 @@ img{
     }
     .pictures{
         width: 800px;
-    }/*
-  div{
-      display: grid;
-  }*/
+    }
+
 }
 @media (min-width: 1500px){
-    .box{
-        width: 1739px;
-    }
     .ovale {
-        right: 564px;
-        width: 1132px;
+        right: 89px;
     }
     .ovale--case{
         right: 689px;
