@@ -60,7 +60,12 @@
 .sous--white{
   color: $c-link;
 }
-
+.link{
+  color: $c-logo;
+}
+.link:hover{
+    text-shadow: 2px 4px 10px $c-hover;
+}
 @media (min-width: 900px){ 
   .contenair{
     max-width: 900px;
@@ -120,9 +125,4 @@
   .title--points{
     width: 941px;
   }
-}
-@media (min-width: 1500px){
- .texte{
-  width: 830px;
- }
 }

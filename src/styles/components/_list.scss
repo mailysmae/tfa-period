@@ -33,6 +33,9 @@ a{
 .menu__el{
     margin: 8px;
 }
+.menu__el:hover{
+    text-shadow: 2px 4px 10px $c-hover;
+}
 .reseau__el a{
     display: inline-block;
     width: 25px;

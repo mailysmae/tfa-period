@@ -155,10 +155,13 @@ img{
     }
     
     .page{
-        height: 552px;
+        width: 469px;
+        height: 360px;
         font-size: $size-tablette;
     }
-
+    .page--case{
+        height: 552px;
+    }
     .ovale{
         right: 93px;
         border-radius: 0% 100% 63% 10%/100% 51% 50% 0%;
@@ -201,8 +204,12 @@ img{
     .page{
         font-size: $size-desktop;
         width: 559px;
-        height: 1114px;
+        height: 418px;
         padding: 20px;
+    }
+    .page--case{
+        width: 559px;
+        height: 1114px;
     }
     .ovale{
         padding: 131px;
