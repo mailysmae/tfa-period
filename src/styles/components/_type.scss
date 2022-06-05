@@ -19,16 +19,30 @@
   animation: translate 3s;
 }
 .texte--box{
-  top: 60px;
+  top: 24px;
+  width: 284px;
+}
+.texte--box__posi{
+  top: -13px;
+}
+.texte--box__budget{
+  top: 69px;
 }
 .texte--case{
   color: $c-text;
 }
-.title--sous__box{
-  color: $c-link;
-  top: 47px;
-  left: 34px;
-  position: relative;
+.title--sous__budget{
+  top: 42px;
+  left: 100px;
+}
+.title--sous__posi{
+  top: -18px;
+  left: 73px;
+  width: 207px;
+}
+.title--sous__dispo{
+  top: -3px;
+  left: 73px;
 }
 .logo{
   color: $c-logo;
@@ -53,14 +67,24 @@
     padding: 30px;
     width: 399px;
   }
-  .title--sous__box{
-    position: relative;
-    left: 30px;
-    width: 270px;
+  .title--sous__dispo{
+    top: -73px;
+  }
+  .title--sous__budget{
+    top: 10px;
+  }
+  .title--sous__posi{
+    top: -83px;
   }
   .texte--box{
-    left: 0;
-    width: 270px;
+    top: -69px;
+    width: 341px;
+  }
+  .texte--box__budget{
+    top: 17px;
+  }
+  .texte--box__posi{
+    top: -123px;
   }
 }
 @media (min-width: 1200px){ 
@@ -76,22 +100,21 @@
     width: 522px;
   }
   .texte--box{
-    width: 447px;
-    left: 21px;
+    top: -50px;
   }
-  .title--sous__box{
-    width: 587px;
-    left: 54px;
+  .texte--box__posi{
+    top: -120px;
+  }
+  .texte--box__budget{
+    top: 38px;
+  }
+  .title--sous__dispo{
+    left: 114px;
+  }
+  .title--points{
+    width: 941px;
   }
 }
 @media (min-width: 1500px){
-  .title--sous, .texte {
-    width: 615px;
-    top: 41px;
-  }
-  .texte--box{
-    left: 12px;
-    top: 35px;
-    width: 508px;
-  }
+ 
 }

@@ -24,6 +24,9 @@ body {
     top: 80px;
     position: relative;
 }
+.section--fonction{
+    margin-top: 56px;
+}
 
 /*images*/
 img{
@@ -44,6 +47,21 @@ img{
     position: relative;
     top: 80px;
 }
+.picto{
+    width: 50px;
+    position: absolute;
+    left: 62px;
+    top: 95px;
+}
+.picto--pouce{
+    top: 100px;
+    left: 389px;
+    width: 75px;
+}
+.picto--ou{
+    top: 76px;
+    left: 747px;
+}
 
 /*objet*/
 .ovale{
@@ -62,10 +80,24 @@ img{
 }
 
 /*points fort*/
+.scroll{
+    position: absolute;
+    height: 5px;
+    max-width: 100%;
+    background-color: pink;
+    top: 0;
+    left: 0;
+}
 .box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    overflow-x: hidden;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 .page{
     font-size: $size-text;
@@ -73,6 +105,7 @@ img{
     background-color: $c-logo;
     width: 320px;
     height: 300px;
+    margin: 10px;
 }
 .colors {
     width: 50px;
@@ -104,27 +137,15 @@ img{
           padding: 20px;
       }
     .box{
-        width: 800px;
-        height: 100%;
-        display: flex;
-        align-content: center;
-        justify-content: space-between;
-        overflow-x: hidden;
+    
         padding: 30px;
     }
     
     .page{
-        height: 457px;
+        height: 400px;
         margin: 10px;
+        width: 457px;
         font-size: $size-tablette;
-    }
-    .scroll{
-        position: absolute;
-        height: 5px;
-        max-width: 100%;
-        background-color: pink;
-        top: 0;
-        left: 0;
     }
 
     .ovale{
@@ -142,6 +163,17 @@ img{
     .mockup{
         top: 71px;
     }
+    .picto{
+        width: 58px;
+        left: 96px;
+        top: 95px;
+    }
+    .picto--pouce{
+        left: 562px;
+    }
+    .picto--ou{
+        left: 1044px;
+    }
 
 }
 @media (min-width: 1200px){ 
@@ -151,7 +183,7 @@ img{
     .page{
         font-size: $size-desktop;
         width: 559px;
-        height: 495px;
+        height: 436px;
         padding: 20px;
     }
     .ovale{
@@ -169,7 +201,18 @@ img{
     .pictures{
         width: 800px;
     }
-
+    .picto{
+        top: 127px;
+    }
+    .picto--ou{
+        left: 1335px;
+    }
+    .picto--pouce{
+        left: 718px;
+    }
+    .mockup{
+        top: 125px;
+    }
 }
 @media (min-width: 1500px){
     .ovale {
