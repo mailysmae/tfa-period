@@ -43,6 +43,8 @@ img{
 }
 .mockup{
     max-width: 100%;
+    position: relative;
+    top: 80px;
 }
 
 /*objet*/
@@ -123,7 +125,7 @@ img{
     .scroll{
         position: absolute;
         height: 5px;
-        width: 0;
+        max-width: 100%;
         background-color: pink;
         top: 0;
         left: 0;
