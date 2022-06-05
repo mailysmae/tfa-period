@@ -47,7 +47,7 @@
 .title--sous__case{
   width: 227px;
 }
-.logo{
+.nom{
   color: $c-logo;
   font-family: $type-logo;
   animation: translate 3s;
@@ -124,5 +124,8 @@
   }
   .title--points{
     width: 941px;
+  }
+  .nom{
+    font-size: $size-bigtitle;
   }
 }

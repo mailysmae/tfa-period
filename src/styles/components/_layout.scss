@@ -13,7 +13,6 @@ body {
 }
 .section--header{
     flex-direction: column;
-    bottom: 49px;
     position: relative;
 }
 .section--footer{
@@ -35,7 +34,7 @@ img{
  
 }
 .img--protect{
-    top: 50px;
+    width: 225px;
 }
 .dwm{
     width: 50px;
@@ -70,6 +69,10 @@ img{
 }
 .user{
     max-width: 259px;
+}
+.logo{
+    width: 50px;
+    position: relative;
 }
 /*objet*/
 .ovale{
@@ -198,6 +201,14 @@ img{
     .pictures{
         width: 500px;
     }
+    .logo{
+        width: 37px;
+        bottom: 700px;
+        right: 106px;
+    }
+    .img--protect{
+        width: 337px;
+    }
 
 }
 @media (min-width: 1200px){ 
@@ -239,6 +250,10 @@ img{
     }
     .pictures{
         width: 958px;
+    }
+    .logo{
+        width: 55px;
+        bottom: 896px;
     }
 }
 @media (min-width: 1500px){

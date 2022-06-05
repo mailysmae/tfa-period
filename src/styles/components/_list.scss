@@ -15,7 +15,7 @@ a{
     color: $c-link;
     padding: 15px;
     border-radius: 25px;
-    top: 20px;
+    top: -256px;
 }
 .proto:hover{
     box-shadow: 2px 4px 10px $c-hover;
@@ -96,13 +96,16 @@ a{
         position: relative;
         top: 30px;
     }
+    .proto{
+        top: -86px;
+    }
 }
 @media (min-width: 1200px){ 
     .proto{
         font-size: $size-desktop;
         padding: 20px;
         border-radius: 26px;
-        top: -105px;
+        top: -251px;
     }
     .menu__el{
         margin: 38px;
