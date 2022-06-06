@@ -51,6 +51,10 @@
 .title--sous__case{
   width: 217px;
 }
+.title--app{
+  font-size: $size-text;
+  font-family: $type-text;
+}
 .nom{
   color: $c-logo;
   font-family: $type-logo;
@@ -84,7 +88,8 @@
     width: 432px;
   }
   .title--app{
-    width: 420px;
+    font-size: $size-tablette;
+    width: 500px;
   }
   .title--sous__dispo{
     top: -73px;
@@ -153,7 +158,8 @@
     width: 500px; 
   }
   .title--app{
-    width: 709px;
+    width: 597px;
+    font-size: $size-desktop;
   }
   .nom{
     font-size: $size-bigtitle;
