@@ -146,10 +146,10 @@ img{
     .section--credits{
         max-width: 646px;
     }
-      .scroll{
+    .scroll{
         position: absolute;
         height: 5px;
-        width: 0;
+        max-width: 100%;
         background-color: pink;
         top: 0;
         left: 0;
