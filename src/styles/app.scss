@@ -5,3 +5,8 @@
 @import 'components/list';
 @import 'components/grid';
 @import 'components/animations';
+@font-face {
+    font-family: "Anilez";
+    src: url("/fonts/Anilez.otf") format("otf2"),
+           url("/fonts/Anilez.otf") format("otf");
+}
