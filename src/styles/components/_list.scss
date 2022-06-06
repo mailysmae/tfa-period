@@ -49,6 +49,9 @@ ul{
 .menu__el:hover{
     text-shadow: 2px 4px 10px $c-hover;
 }
+.menu--credit{
+    display: inline;
+}
 .reseau__el a{
     display: inline-block;
     width: 25px;
@@ -110,7 +113,10 @@ ul{
         top: 30px;
     }
     .proto{
-        bottom: 18px;
+        bottom: 53px;
+    }
+    .proto--case{
+        bottom: 133px;
     }
 }
 @media (min-width: 1200px){ 
@@ -118,6 +124,9 @@ ul{
         font-size: $size-desktop;
         padding: 20px;
         border-radius: 26px;
+        bottom: 19px;
+    }
+    .proto--case{
         bottom: 216px;
     }
     .menu__el{

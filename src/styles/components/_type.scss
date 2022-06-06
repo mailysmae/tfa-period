@@ -96,6 +96,12 @@
     top: -83px;
     left: 87px;
   }
+  .title--sous__case{
+    width: 271px;
+  }
+  .title--basic{
+    left: 54px;   
+  }
   .texte--box{
     top: -69px;
     width: 365px;
@@ -118,12 +124,17 @@
     font-size: $size-title;
     width: 431px;
   }
+  .title--sous__case{
+    width: 380px;
+  }
   .texte{
     font-size: $size-desktop;
-    width: 729px;
+    /*width: 729px;*/
+    width: 607px;
   }
   .texte--box{
     top: -50px;
+    width: 500px;
   }
   .texte--box__posi{
     top: -120px;
@@ -138,8 +149,8 @@
     width: 941px;
   }
   .title--basic{
-    left: 54px;
-    width: 472px;    
+    left: 54px; 
+    width: 500px; 
   }
   .nom{
     font-size: $size-bigtitle;

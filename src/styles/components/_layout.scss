@@ -29,7 +29,6 @@ body {
 .section--case{
     margin-top: 70px;
 }
-
 /*images*/
 img{
     max-width: 100%;
@@ -143,6 +142,10 @@ img{
           flex-direction: row;
           padding: 20px;
       }
+    .section--ui,
+    .section--credits{
+        max-width: 646px;
+    }
       .scroll{
         position: absolute;
         height: 5px;
@@ -176,7 +179,7 @@ img{
     } 
     .ovale--case{
         right: 94px;
-        padding: 177px;
+        padding: 105px;
         border-radius: 0% 100% 53% 27%/100% 41% 29% 0%;
     }
     .dwm{
@@ -210,8 +213,11 @@ img{
     }
     .logo{
         width: 37px;
-        bottom: 700px;
-        right: 106px;
+        bottom: 535px;
+        left: 607px;
+    }
+    .logo--page{
+        bottom: 114px;
     }
     .img--protect{
         width: 337px;
@@ -220,7 +226,16 @@ img{
 }
 @media (min-width: 1200px){ 
     .section{
-        padding: 10px;
+        /*padding: 10px;*/
+        padding: 40px;
+    }
+    .ovale{
+        right: 160px;
+        padding: 97px;
+    }
+    .ovale--case{
+        padding: 122px;
+        right: 148px;
     }
     .page{
         font-size: $size-desktop;
@@ -231,13 +246,6 @@ img{
     .page--case{
         width: 559px;
         height: 1114px;
-    }
-    .ovale{
-        padding: 131px;
-        right: 77px;
-    }
-    .ovale--case{
-        padding: 131px;
     }
     .img--protect{
         width: 500px;
@@ -262,14 +270,18 @@ img{
         width: 500px;
     }
     .pictures{
-        width: 760px;
+        width: 1020px;
     }
     .pictures--case{
         width: 500px;
     }
     .logo{
-        width: 55px;
-        bottom: 896px;
+        width: 44px;
+        bottom: 743px;
+        left: 1033px;
+    }
+    .logo--page {
+        bottom: 190px;
     }
 }
 @media (min-width: 1500px){
@@ -278,6 +290,5 @@ img{
     }
     .ovale--case{
         right: 108px;
-        width: 864px;
     }
 }

@@ -1,3 +1,5 @@
+"use strict";
+/*scroll horizontal*/
 const box = document.querySelector('.box');
 let scrollLine =  document.querySelector('.scroll');
 
