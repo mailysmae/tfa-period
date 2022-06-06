@@ -25,7 +25,8 @@ body {
 }
 .section--titre,
 .section--fonction,
-.section--filtres{
+.section--filtres,
+.section--case{
     margin-top: 70px;
 }
 
@@ -68,12 +69,16 @@ img{
 .mvp{
     max-width: 900px;
 }
+.mvp--case{
+    top: 21px;
+}
 .user{
     max-width: 259px;
 }
 .logo{
-    width: 50px;
+    width: 30px;
     position: relative;
+    left: 267px;
 }
 /*objet*/
 .ovale{
@@ -105,7 +110,7 @@ img{
     height: 286px;
 }
 .page--case{
-    height: 100%;
+    height: 504px;
 }
 
 /*couleurs uikit*/
@@ -163,7 +168,7 @@ img{
         font-size: $size-tablette;
     }
     .page--case{
-        height: 552px;
+        height: 567px;
     }
     .ovale{
         right: 93px;
@@ -201,7 +206,7 @@ img{
         top: 91px;
     }
     .pictures{
-        width: 500px;
+        width: 829px;
     }
     .logo{
         width: 37px;
@@ -214,6 +219,9 @@ img{
 
 }
 @media (min-width: 1200px){ 
+    .section{
+        padding: 10px;
+    }
     .page{
         font-size: $size-desktop;
         width: 559px;
@@ -226,10 +234,10 @@ img{
     }
     .ovale{
         padding: 131px;
-        right: 187px;
+        right: 77px;
     }
     .ovale--case{
-        padding: 215px;
+        padding: 131px;
     }
     .img--protect{
         width: 500px;
@@ -254,7 +262,10 @@ img{
         width: 500px;
     }
     .pictures{
-        width: 958px;
+        width: 760px;
+    }
+    .pictures--case{
+        width: 500px;
     }
     .logo{
         width: 55px;

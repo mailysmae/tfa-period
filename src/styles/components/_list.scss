@@ -23,6 +23,19 @@ a{
 .proto:focus{
     background-color: $c-focus;
 }
+.proto--case{
+    bottom: 26px;
+}
+/*etat lien*/
+ul{
+    list-style: none;
+}
+.etat{
+    text-shadow: 2px 4px 10px $c-hover;
+}
+.focus{
+    color: $c-focus;
+}
 /*reseaux*/
 .reseau,
 .menu__list{
@@ -105,6 +118,7 @@ a{
         font-size: $size-desktop;
         padding: 20px;
         border-radius: 26px;
+        bottom: 216px;
     }
     .menu__el{
         margin: 38px;
