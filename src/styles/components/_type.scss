@@ -73,7 +73,10 @@
   .title--sous, 
   .texte{
     padding: 30px;
-    width: 399px;
+    width: 432px;
+  }
+  .title--app{
+    width: 420px;
   }
   .title--sous__dispo{
     top: -73px;
@@ -83,10 +86,11 @@
   }
   .title--sous__posi{
     top: -83px;
+    left: 87px;
   }
   .texte--box{
     top: -69px;
-    width: 341px;
+    width: 365px;
   }
   .texte--box__budget{
     top: 17px;
